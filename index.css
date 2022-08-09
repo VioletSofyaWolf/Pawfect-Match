@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(228, 228, 228);
+}
+
+.container {
+  margin: 0 auto;
+  width: 550px;
+  background: white;
+}
+
+header {
+  height: 81px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.5em;
+}
+
+.profile-card {
+  text-align: center;
+}
+
+.avatar {
+  height: 751px;
+  width: 534px;
+  object-fit: cover;
+  border-radius: 2.7%;
+}
+
+.name,
+.age,
+.bio {
+  margin-left: 1.5em;
+  text-align: left;
+  /* color: white; */
+}
+
+.icon-profile,
+.icon-chat {
+  width: 34px;
+  height: 34px;
+}
+
+.logo {
+  width: 84px;
+  height: 42px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1em;
+  padding-bottom: 1em;
+}
